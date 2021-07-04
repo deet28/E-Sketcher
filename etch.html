@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "etch.css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+    <title>E SKETCHER</title>
+  </head>
+  <body>
+    <h1 class = "title">E Sketcher</h1>
+    <div class = "buttons">
+      <button class = "blackColor">Black</button>
+      <button class = "grayColor">Gray</button>
+      <button class = "rainbowColor">Random</button>
+      <button class = "eraserButton">Eraser</button>
+    </div>
+    <div id = "main-container" class = "container">
+      <div id = "grid-container" class = "grid"></div>
+      <div class = "slideContainer">
+        <p>Change Grid Size!</p>
+        <input type = "range" min = "1" max = "64" class = "slider" id="sliderRange">
+      </div> 
+    </div>
+
+  <script src = "etch.js"></script>  
+  </body>
+
+  </html>
